@@ -127,7 +127,9 @@ static struct
  {SDLK_KP9,	TRUE,	'9',      '9',	   CTL_PAD9,	ALT_PAD9},
  {SDLK_WORLD_0,FALSE,0,0,0,0},
  {SDLK_SPACE,   FALSE,  ' ', ' ', ' ', ' '},
- {SDLK_UNKNOWN,FALSE,0,0,0,0};
+ {SDLK_UNKNOWN,FALSE,0,0,0,0}
+ {SDLK_UNKNOWN,FALSE,0,0,0,0}
+};
 #endif
 
 int processevent () { // Convert keys down to PDC key commands. Introduces priority if multiple keys are pressed.
