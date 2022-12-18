@@ -128,7 +128,6 @@ static struct
  {SDLK_WORLD_0,FALSE,0,0,0,0},
  {SDLK_SPACE,   FALSE,  ' ', ' ', ' ', ' '},
  {SDLK_UNKNOWN,FALSE,0,0,0,0}
- {SDLK_UNKNOWN,FALSE,0,0,0,0}
 };
 #endif
 
